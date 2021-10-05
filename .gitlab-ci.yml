@@ -1,0 +1,14 @@
+include:
+  - local: '.gitlab/.gitlab-ci.template.yml'
+  - local: '.gitlab/kyc.equanimity.li.yml'
+  - local: '.gitlab/dev-kyc.equanimity.li.yml'
+  - local: '.gitlab/kyc.blockchainmaji.com.yml'
+  - local: '.gitlab/dev-kyc.blockchainmaji.com.yml'
+  - local: '.gitlab/kyc-light.enercom.ag.yml'
+  - local: '.gitlab/dev-kyc-light.enercom.ag.yml'
+  - local: '.gitlab/kyc.musicworldcup.com.yml'
+
+stages:
+  - build
+  - deploy
+

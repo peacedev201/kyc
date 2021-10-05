@@ -1,0 +1,6 @@
+module.exports = {
+  COMMENT_TYPES: {
+    KYC_INDIVIDUAL: 'KYC_INDIVIDUAL',
+    KYC_COMPANY: 'KYC_COMPANY',
+  },
+}
